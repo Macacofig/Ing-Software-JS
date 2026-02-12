@@ -33,8 +33,14 @@
     <form id = "chat-form">
       <label for="user-input">Escribe tu nombre:</label>
       <input type="text" id="nombre" />
+
+      <label for="genero-input">Género:</label>
+        <input type="radio" name="genero" value="masculino" />Masculino</input>
+        <input type="radio" name="genero" value="femenino" />Femenino</input>
+
       <input type="submit" value="Enviar" id="send-button" />
     </form>
+
     <div id="chat-output"></div>
 
     <script type="module" src="./src/presenter-chatbot.js"></script>

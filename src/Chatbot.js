@@ -1,16 +1,36 @@
-function saludar(nombre) {
-    return `Hola ${nombre}`;
+function saludar(nombre, genero) {
+    const [saludo, hora] = horaActual();
+    const distin = GeneroSaludo(genero);
+    return `${saludo} ${distin} ${nombre}, ${hora}`;
 }
 
-function SaludohoraActual(nombre) {
+function horaActual() {
     const fecha = new Date();
     const horaFormateada = fecha.toLocaleTimeString();
+    let text1;
+    let text2;
     if (fecha.getHours() < 12) {
-        return `Buenos días ${nombre}, son las ${horaFormateada}`;
+        text1 = "Buenos días"; 
     } else if (fecha.getHours() < 18) {
-        return `Buenas tardes ${nombre}, son las ${horaFormateada}`;
+        text1 = "Buenas tardes"; 
     } else {
-        return `Buenas noches ${nombre}, son las ${horaFormateada}`;
+        text1 = "Buenas noches"; 
     }
+    text2 = `son las ${horaFormateada}`;
+
+    return [text1, text2];
 }
-export {saludar, SaludohoraActual};
+
+function GeneroSaludo(genero) 
+{
+    let distin;
+    if (genero === "masculino") 
+    {
+        distin = "Señor";
+    } else if (genero === "femenino") 
+    {
+        distin = "Señora";
+    }
+    return distin;
+}
+export {saludar};
