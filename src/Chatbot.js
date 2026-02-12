@@ -1,6 +1,6 @@
-function saludar(nombre, genero) {
+function saludar(nombre, genero,edad) {
     const [saludo, hora] = horaActual();
-    const distin = GeneroSaludo(genero);
+    const distin = Genero(genero,edad);
     return `${saludo} ${distin} ${nombre}, ${hora}`;
 }
 
@@ -21,15 +21,28 @@ function horaActual() {
     return [text1, text2];
 }
 
-function GeneroSaludo(genero) 
+function Genero(genero, edad) 
 {
     let distin;
-    if (genero === "masculino") 
+    if (edad > 30)
     {
-        distin = "Señor";
-    } else if (genero === "femenino") 
+        if (genero === "masculino") 
+        {
+            distin = "Señor";
+        } else if (genero === "femenino") 
+        {
+            distin = "Señora";
+        }
+    }
+    else
     {
-        distin = "Señora";
+        if (genero === "masculino") 
+        {
+            distin = "Joven";
+        } else if (genero === "femenino") 
+        {
+            distin = "Señorita";
+        }
     }
     return distin;
 }
