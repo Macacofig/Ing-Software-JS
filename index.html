@@ -30,6 +30,13 @@
 
     <script type="module" src="./src/presenter.js"></script> -->
     <h1>Chat Bot</h1>
-    <p> Hola soy CatBot y sere tu asistente de chat.</p>
+    <form id = "chat-form">
+      <label for="user-input">Escribe tu nombre:</label>
+      <input type="text" id="nombre" />
+      <input type="submit" value="Enviar" id="send-button" />
+    </form>
+    <div id="chat-output"></div>
+
+    <script type="module" src="./src/presenter-chatbot.js"></script>
   </body>
 </html>
