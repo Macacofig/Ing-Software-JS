@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "omkrfig",
+    "commit": {
+      "date": "2026-02-24T14:25:14.000Z",
+      "message": "feat: Casos FizzBuzz -1,0,1,2",
+      "url": "https://github.com/Macacofig/Ing-Software-JS/commit/HEAD"
+    },
+    "stats": {
+      "total": 145,
+      "additions": 145,
+      "deletions": 0,
+      "date": "2026-02-24"
+    },
+    "coverage": 87.5,
+    "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]

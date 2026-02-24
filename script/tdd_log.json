@@ -1,0 +1,120 @@
+[
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1771942429566,
+    "success": false,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1771942505279,
+    "success": false,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1771942554150,
+    "success": false,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1771942583524,
+    "success": false,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1771942604122,
+    "success": false,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1771942634916,
+    "success": true,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1771942653204,
+    "success": true,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1771942664244,
+    "success": false,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1771942691776,
+    "success": true,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 4,
+    "numTotalTests": 6,
+    "timestamp": 1771942839110,
+    "success": false,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 4,
+    "numTotalTests": 6,
+    "timestamp": 1771942870295,
+    "success": false,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 4,
+    "numTotalTests": 6,
+    "timestamp": 1771942926186,
+    "success": false,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 2,
+    "numTotalTests": 6,
+    "timestamp": 1771943000242,
+    "success": false,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1771943035688,
+    "success": true,
+    "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Casos FizzBuzz -1,0,1,2",
+    "commitTimestamp": 1771943115798,
+    "testId": 0
+  }
+]
