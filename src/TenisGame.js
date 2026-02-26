@@ -17,7 +17,7 @@ class TenisGame {
     }
     
     nextScore(ActualScore) {
-        const scores = ["Love", "15", "30"];
+        const scores = ["Love", "15", "30", "40"];
         const currentIndex = scores.indexOf(ActualScore);
         return scores[currentIndex + 1];
     }
