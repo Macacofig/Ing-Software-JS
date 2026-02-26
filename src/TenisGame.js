@@ -13,13 +13,11 @@ class TenisGame {
     point(player) {
         if (player === "Player 1") {
             this.scorePlayer1 = this.nextScore(this.scorePlayer1);
-        } else if (player === "Player 2") {
-            this.scorePlayer2 = this.nextScore(this.scorePlayer2);
         }
     }
     
     nextScore(ActualScore) {
-        const scores = ["Love", "15"];
+        const scores = ["Love", "15", "30"];
         const currentIndex = scores.indexOf(ActualScore);
         return scores[currentIndex + 1];
     }

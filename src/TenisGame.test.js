@@ -10,4 +10,10 @@ describe("Tennis Game", () => {
     marcador.point("Player 1");
     expect(marcador.showScore()).toEqual("15-Love");
   });
+  it("Deberia ser 30-Love al marcar dos puntos para el jugador 1", () => {
+    const marcador = new TenisGame();
+    marcador.point("Player 1");
+    marcador.point("Player 1");
+    expect(marcador.showScore()).toEqual("30-Love");
+  });
 });
