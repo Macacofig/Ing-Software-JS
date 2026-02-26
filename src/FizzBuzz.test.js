@@ -25,4 +25,7 @@ describe('FizzBuzz', () => {
   it('deberia retornar "1 2 fizz 4 buzz fizz 7 8 fizz buzz" si el numero es 10', () => {
     expect(fizzBuzz(10)).toEqual("1 2 fizz 4 buzz fizz 7 8 fizz buzz");
   });
+  it('deberia retornar "1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 fizz 13 14 fizzbuzz" si el numero es 15', () => {
+    expect(fizzBuzz(15)).toEqual("1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 fizz 13 14 fizzbuzz");
+  });
 });

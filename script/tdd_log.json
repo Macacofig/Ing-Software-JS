@@ -272,9 +272,23 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "05771a8fe39c1c484378cdf9f0b1b58355f59889",
     "commitName": "feat: FizzBuzz with multiples of 5",
     "commitTimestamp": 1772109305016,
     "testId": 4
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1772109350677,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: FizzBuzz with multiples of 3 and 5 at the same time",
+    "commitTimestamp": 1772109395588,
+    "testId": 5
   }
 ]

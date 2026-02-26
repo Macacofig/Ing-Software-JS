@@ -17,6 +17,11 @@ function fizzBuzz(n) {
         return fizzBuzz(n - 1) + " buzz";
     }
 
+    if (n % 3 === 0 && n % 5 === 0)
+    {
+        return fizzBuzz(n - 1) + " fizzbuzz";
+    }
+    
     if (n % 3 === 0) 
     {
         return fizzBuzz(n - 1) + " fizz";
@@ -26,7 +31,7 @@ function fizzBuzz(n) {
     {
         return fizzBuzz(n - 1) + " buzz";
     }
-    
+
     return fizzBuzz(n - 1) + " " + n;
 }
 
