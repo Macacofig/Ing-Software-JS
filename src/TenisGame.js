@@ -14,6 +14,9 @@ class TenisGame {
         if (player === "Player 1") {
             this.scorePlayer1 = this.nextScore(this.scorePlayer1);
         }
+        if (player === "Player 2") {
+            this.scorePlayer2 = this.nextScore(this.scorePlayer2);
+        }
     }
     
     nextScore(ActualScore) {

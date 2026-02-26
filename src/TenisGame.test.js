@@ -23,4 +23,9 @@ describe("Tennis Game", () => {
     marcador.point("Player 1");
     expect(marcador.showScore()).toEqual("40-Love");
   });
+  it("Deberia ser Love-15 al marcar un punto para el jugador 2", () => {
+    const marcador = new TenisGame();
+    marcador.point("Player 2");
+    expect(marcador.showScore()).toEqual("Love-15");
+  });
 });
