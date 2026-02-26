@@ -16,4 +16,7 @@ describe('FizzBuzz', () => {
   it('deberia retornar "1 2 fizz" si el numero es 3', () => {
     expect(fizzBuzz(3)).toEqual("1 2 fizz");
   });
+  it('deberia retornar "1 2 fizz 4 buzz" si el numero es 5', () => {
+    expect(fizzBuzz(5)).toEqual("1 2 fizz 4 buzz");
+  });
 });
