@@ -286,9 +286,23 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e8b95e0c8719c02b97b0b4f3c413714b0c7a47b0",
     "commitName": "feat: FizzBuzz with multiples of 3 and 5 at the same time",
     "commitTimestamp": 1772109395588,
     "testId": 5
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1772111225715,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refact: separate fizzbuzz logic into helper function",
+    "commitTimestamp": 1772111333288,
+    "testId": 6
   }
 ]

@@ -1,3 +1,19 @@
+function obtenerValor(n) {
+    if (n % 3 === 0 && n % 5 === 0) {
+        return "fizzbuzz";
+    }
+
+    if (n % 3 === 0) {
+        return "fizz";
+    }
+
+    if (n % 5 === 0) {
+        return "buzz";
+    }
+
+    return n.toString();
+}
+
 function fizzBuzz(n) {
     if (n <= 0) {
         return "";
@@ -7,32 +23,7 @@ function fizzBuzz(n) {
         return "1";
     }
 
-    if (n === 3 ) 
-    {
-        return fizzBuzz(n - 1) + " fizz";
-    }
-
-    if (n === 5 ) 
-    {
-        return fizzBuzz(n - 1) + " buzz";
-    }
-
-    if (n % 3 === 0 && n % 5 === 0)
-    {
-        return fizzBuzz(n - 1) + " fizzbuzz";
-    }
-    
-    if (n % 3 === 0) 
-    {
-        return fizzBuzz(n - 1) + " fizz";
-    }
-
-    if (n % 5 === 0) 
-    {
-        return fizzBuzz(n - 1) + " buzz";
-    }
-
-    return fizzBuzz(n - 1) + " " + n;
+    return fizzBuzz(n - 1) + " " + obtenerValor(n);
 }
 
 export { fizzBuzz };

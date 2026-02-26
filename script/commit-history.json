@@ -95,17 +95,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e8b95e0c8719c02b97b0b4f3c413714b0c7a47b0",
     "author": "omkrfig",
     "commit": {
       "date": "2026-02-26T12:36:34.000Z",
       "message": "feat: FizzBuzz with multiples of 3 and 5 at the same time",
-      "url": "https://github.com/Macacofig/Ing-Software-JS/commit/HEAD"
+      "url": "https://github.com/Macacofig/Ing-Software-JS/commit/e8b95e0c8719c02b97b0b4f3c413714b0c7a47b0"
     },
     "stats": {
       "total": 18,
       "additions": 17,
       "deletions": 1,
+      "date": "2026-02-26"
+    },
+    "coverage": 100,
+    "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "omkrfig",
+    "commit": {
+      "date": "2026-02-26T13:08:52.000Z",
+      "message": "refact: separate fizzbuzz logic into helper function",
+      "url": "https://github.com/Macacofig/Ing-Software-JS/commit/HEAD"
+    },
+    "stats": {
+      "total": 47,
+      "additions": 23,
+      "deletions": 24,
       "date": "2026-02-26"
     },
     "coverage": 100,
