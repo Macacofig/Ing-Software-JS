@@ -300,9 +300,39 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d99bb80a2f5b8d05a6a47c65cc063080cdd949b5",
     "commitName": "refact: separate fizzbuzz logic into helper function",
     "commitTimestamp": 1772111333288,
     "testId": 6
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1772112678107,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1772112936034,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1772112958841,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: TennisGame Begining case",
+    "commitTimestamp": 1772113021336,
+    "testId": 7
   }
 ]
