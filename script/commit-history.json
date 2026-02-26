@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ab807e2e9c6894c57591413a30f1087c8157eec0",
     "author": "omkrfig",
     "commit": {
       "date": "2026-02-26T12:33:56.000Z",
       "message": "feat: FizzBuzz with multiples of 3",
-      "url": "https://github.com/Macacofig/Ing-Software-JS/commit/HEAD"
+      "url": "https://github.com/Macacofig/Ing-Software-JS/commit/ab807e2e9c6894c57591413a30f1087c8157eec0"
     },
     "stats": {
       "total": 18,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "omkrfig",
+    "commit": {
+      "date": "2026-02-26T12:35:04.000Z",
+      "message": "feat: FizzBuzz with multiples of 5",
+      "url": "https://github.com/Macacofig/Ing-Software-JS/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
+      "deletions": 0,
+      "date": "2026-02-26"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }
