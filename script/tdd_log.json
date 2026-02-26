@@ -330,9 +330,31 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "16ae882471f2ae301ca7c24fffe16981d6831527",
     "commitName": "feat: TennisGame Begining case",
     "commitTimestamp": 1772113021336,
     "testId": 7
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1772113136382,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1772113221212,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: TennisGame Player 1 has 1 point",
+    "commitTimestamp": 1772113311233,
+    "testId": 8
   }
 ]
