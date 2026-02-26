@@ -112,9 +112,127 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cfcc48a44cc019eb142b7c8d6efd44b7f8d78003",
     "commitName": "feat: Casos FizzBuzz -1,0,1,2",
     "commitTimestamp": 1771943115798,
     "testId": 0
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1772108382355,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 2,
+    "numTotalTests": 7,
+    "timestamp": 1772108587338,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1772108623940,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1772108655314,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1772108689193,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1772108705604,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1772108767593,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 1,
+    "numTotalTests": 10,
+    "timestamp": 1772108821799,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1772108861279,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1772108938249,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1772108956175,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1772108977503,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1772109031756,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1772109101539,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: FizzBuzz with 3",
+    "commitTimestamp": 1772109121346,
+    "testId": 1
   }
 ]
