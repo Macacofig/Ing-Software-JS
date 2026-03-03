@@ -518,9 +518,23 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "32b3ffa28b596205728da743fcd6b7ce6e25862a",
     "commitName": "feat: TennisGame Player 1 has 2 points and Player 2 has 2 points.",
     "commitTimestamp": 1772534507010,
     "testId": 17
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1772534566387,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: TennisGame Player 1 has 3 points and Player 2 has 2 points",
+    "commitTimestamp": 1772534585716,
+    "testId": 18
   }
 ]

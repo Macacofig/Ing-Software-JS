@@ -57,7 +57,7 @@ describe("Tennis Game", () => {
     expect(marcador.showScore()).toEqual("30-15");
   });
 
-  it("Deberia ser 30-15 cuando Player 1  maraca 1 punto y Player 2 marca 2 puntos", () => {
+  it("Deberia ser 14-30 cuando Player 1  maraca 1 punto y Player 2 marca 2 puntos", () => {
     const marcador = new TenisGame();
     marcador.point("Player 1");
     marcador.point("Player 2");
@@ -65,12 +65,22 @@ describe("Tennis Game", () => {
     expect(marcador.showScore()).toEqual("15-30");
   });
 
-  it("Deberia ser 30-15 cuando Player 1  maraca 2 puntos y Player 2 marca 2 puntos", () => {
+  it("Deberia ser 30-30 cuando Player 1  maraca 2 puntos y Player 2 marca 2 puntos", () => {
     const marcador = new TenisGame();
     marcador.point("Player 1");
     marcador.point("Player 1");
     marcador.point("Player 2");
     marcador.point("Player 2");
     expect(marcador.showScore()).toEqual("30-30");
+  });
+
+  it("Deberia ser 40-30 cuando Player 1  maraca 3 puntos y Player 2 marca 2 puntos", () => {
+    const marcador = new TenisGame();
+    marcador.point("Player 1");
+    marcador.point("Player 1");
+    marcador.point("Player 1");
+    marcador.point("Player 2");
+    marcador.point("Player 2");
+    expect(marcador.showScore()).toEqual("40-30");
   });
 });
