@@ -22,10 +22,18 @@ class TenisGame {
     point(player) {
 
         if (player === "Player 1") {
-            if(this.scorePlayer1 === "40" && this.scorePlayer2 !== "40") {
+            if(this.scorePlayer2 === "40" && this.scorePlayer1 === "30") {
+                this.scorePlayer1 = "Deuce";
+                this.scorePlayer2 = "Deuce";
+            }
+            else
+            {
+                if(this.scorePlayer1 === "40" && this.scorePlayer2 !== "40") {
                 this.scorePlayer1 = "Game For Player 1";
-            } else {
-                this.scorePlayer1 = this.nextScore(this.scorePlayer1);
+                } 
+                else {
+                    this.scorePlayer1 = this.nextScore(this.scorePlayer1);
+                }
             }
         }
         if (player === "Player 2") {
