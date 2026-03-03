@@ -494,12 +494,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "30093247a94d2b1be9e39c20c8f3c916b4f62c98",
     "author": "omkrfig",
     "commit": {
       "date": "2026-03-03T11:27:35.000Z",
       "message": "feat: TennisGame the game had a Player with advantage and the other gets 1 point",
-      "url": "https://github.com/Macacofig/Ing-Software-JS/commit/HEAD"
+      "url": "https://github.com/Macacofig/Ing-Software-JS/commit/30093247a94d2b1be9e39c20c8f3c916b4f62c98"
     },
     "stats": {
       "total": 241,
@@ -509,6 +509,25 @@
     },
     "coverage": 90,
     "test_count": 31,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "omkrfig",
+    "commit": {
+      "date": "2026-03-03T11:30:07.000Z",
+      "message": "feat: TennisGame the game had a Player advantage and get other point",
+      "url": "https://github.com/Macacofig/Ing-Software-JS/commit/HEAD"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 29,
+      "deletions": 0,
+      "date": "2026-03-03"
+    },
+    "coverage": 92.86,
+    "test_count": 32,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -176,4 +176,17 @@ describe("Tennis Game", () => {
     //marcador.point("Player 1");
     expect(marcador.showScore()).toEqual("Deuce");
   });
+
+  it("Deberia ser Game For Player x cuando algun player estaba en Advantage y anota otro punto", () => {
+    const marcador = new TenisGame();
+    marcador.point("Player 2");
+    marcador.point("Player 2");
+    marcador.point("Player 2");
+    marcador.point("Player 1");
+    marcador.point("Player 1");
+    marcador.point("Player 1");
+    marcador.point("Player 2");
+    marcador.point("Player 2");
+    expect(marcador.showScore()).toEqual("Game For Player 2");
+  });
 });
