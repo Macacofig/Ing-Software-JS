@@ -10,6 +10,9 @@ class TenisGame {
         if(this.scorePlayer1 === "Game For Player 1") {
             return "Game For Player 1";
         }
+        if(this.scorePlayer2 === "Game For Player 2") {
+            return "Game For Player 2";
+        }
         return `${this.scorePlayer1}-${this.scorePlayer2}`;
     }
 
@@ -22,7 +25,11 @@ class TenisGame {
             }
         }
         if (player === "Player 2") {
-            this.scorePlayer2 = this.nextScore(this.scorePlayer2);
+            if(this.scorePlayer2 === "40" && this.scorePlayer1 !== "40") {
+                this.scorePlayer2 = "Game For Player 2";
+            } else {
+                this.scorePlayer2 = this.nextScore(this.scorePlayer2);
+            }
         }
     }
     

@@ -104,4 +104,16 @@ describe("Tennis Game", () => {
     marcador.point("Player 2");
     expect(marcador.showScore()).toEqual("Game For Player 1");
   });
+
+  it("Deberia ser Game For Player 2 cuando Player 1  maraca 2 puntos y Player 2 marca 4 puntos", () => {
+    const marcador = new TenisGame();
+    marcador.point("Player 1");
+    marcador.point("Player 1");
+    marcador.point("Player 2");
+    marcador.point("Player 2");
+    marcador.point("Player 2");
+    marcador.point("Player 2");
+    expect(marcador.showScore()).toEqual("Game For Player 2");
+  });
+
 });
