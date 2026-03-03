@@ -2,61 +2,24 @@
 <html xml:lang="es">
   <head>
     <title>Sumador</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-<!--     
-    <h1>CALCULADORA</h1>
+    <div class="container">
 
-    <h2>SUMADOR</h2>
-    <form id="sumar-form">
-      <label for="primer-numero">Primer número:</label>
-      <input type="number" id="primer-numero" />
-      <label for="segundo-numero">Segundo número:</label>
-      <input type="number" id="segundo-numero" />
-      <input type="submit" value="Sumar" id="sumar-button" />
-    </form>
-    <br/>
+      <button id="start-btn" type="button">Iniciar Juego</button>
 
-    <h2>MULTIPLICADOR</h2>
-    <form id="multiplicar-form">
-      <label for="primer-numero-m">Primer número:</label>
-      <input type="number" id="primer-numero-m" />
-      <label for="segundo-numero-m">Segundo número:</label>
-      <input type="number" id="segundo-numero-m" />
-      <input type="submit" value="Multiplicar" id="multiplicar-button" />
-    </form>
+      <div class="card">
+        <h2 id="score">Love-Love</h2>
+      </div>
 
-    <div id="resultado-div"></div>
+      <div class="buttons">
+        <button id="p1-btn" type="button">Punto Player 1</button>
+        <button id="p2-btn" type="button">Punto Player 2</button>
+      </div>
 
-    <script type="module" src="./src/presenter.js"></script> -->
-    <h1>Chat Bot</h1>
-    <form id = "chat-form">
-      <label for="user-input">Escribe tu nombre:</label>
-      <input type="text" id="nombre" />
-    
-      <br>
-      <label for="genero-input">Género:</label>
-        <input type="radio" name="genero" value="masculino" />Masculino</input>
-        <input type="radio" name="genero" value="femenino" />Femenino</input>
+    </div>
 
-      <br>
-
-      <label for="edad-input">Edad:</label>
-      <input type="number" id="edad-input" />
-
-      <br>
-
-      <label for="idioma-input">Idioma:</label>
-        <input type="radio" name="idioma" value="es" />Español</input>
-        <input type="radio" name="idioma" value="en" />Inglés</input>
-
-      <br>
-      
-      <input type="submit" value="Enviar" id="send-button" />
-    </form>
-
-    <div id="chat-output"></div>
-
-    <script type="module" src="./src/presenter-chatbot.js"></script>
+    <script type="module" src="src/presenter-tennisgame.js"></script>
   </body>
 </html>
