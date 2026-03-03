@@ -7,6 +7,9 @@ class TenisGame {
     }
 
     showScore() {
+        if(this.scorePlayer1 === "Deuce" && this.scorePlayer2 === "Deuce") {
+            return "Deuce";
+        }
         if(this.scorePlayer1 === "Game For Player 1") {
             return "Game For Player 1";
         }
@@ -17,6 +20,7 @@ class TenisGame {
     }
 
     point(player) {
+
         if (player === "Player 1") {
             if(this.scorePlayer1 === "40" && this.scorePlayer2 !== "40") {
                 this.scorePlayer1 = "Game For Player 1";
@@ -25,11 +29,20 @@ class TenisGame {
             }
         }
         if (player === "Player 2") {
-            if(this.scorePlayer2 === "40" && this.scorePlayer1 !== "40") {
-                this.scorePlayer2 = "Game For Player 2";
-            } else {
-                this.scorePlayer2 = this.nextScore(this.scorePlayer2);
+            if(this.scorePlayer1 === "40" && this.scorePlayer2 === "30") {
+                this.scorePlayer1 = "Deuce";
+                this.scorePlayer2 = "Deuce";
             }
+            else
+            {
+                if(this.scorePlayer2 === "40" && this.scorePlayer1 !== "40") {
+                this.scorePlayer2 = "Game For Player 2";
+                } 
+                else {
+                    this.scorePlayer2 = this.nextScore(this.scorePlayer2);
+                }
+            }
+            
         }
     }
     

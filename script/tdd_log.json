@@ -606,9 +606,71 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "714fc547f447e43c313f4f3e27241044217955b6",
     "commitName": "feat: TennisGame Player 1 has less 3 points and Player 2 has 4 points",
     "commitTimestamp": 1772535243335,
     "testId": 21
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 1,
+    "numTotalTests": 27,
+    "timestamp": 1772535372196,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1772535521718,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 1,
+    "numTotalTests": 27,
+    "timestamp": 1772535686583,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 1,
+    "numTotalTests": 27,
+    "timestamp": 1772535788252,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 1,
+    "numTotalTests": 27,
+    "timestamp": 1772535936119,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 1,
+    "numTotalTests": 27,
+    "timestamp": 1772535996824,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 0,
+    "numTotalTests": 27,
+    "timestamp": 1772536014701,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: TennisGame Player 1 has 3 points and Player 2 has 3 points",
+    "commitTimestamp": 1772536035416,
+    "testId": 22
   }
 ]

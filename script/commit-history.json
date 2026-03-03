@@ -399,12 +399,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "714fc547f447e43c313f4f3e27241044217955b6",
     "author": "omkrfig",
     "commit": {
       "date": "2026-03-03T10:54:02.000Z",
       "message": "feat: TennisGame Player 1 has less 3 points and Player 2 has 4 points",
-      "url": "https://github.com/Macacofig/Ing-Software-JS/commit/HEAD"
+      "url": "https://github.com/Macacofig/Ing-Software-JS/commit/714fc547f447e43c313f4f3e27241044217955b6"
     },
     "stats": {
       "total": 37,
@@ -414,6 +414,25 @@
     },
     "coverage": 100,
     "test_count": 26,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "omkrfig",
+    "commit": {
+      "date": "2026-03-03T11:07:14.000Z",
+      "message": "feat: TennisGame Player 1 has 3 points and Player 2 has 3 points",
+      "url": "https://github.com/Macacofig/Ing-Software-JS/commit/HEAD"
+    },
+    "stats": {
+      "total": 85,
+      "additions": 82,
+      "deletions": 3,
+      "date": "2026-03-03"
+    },
+    "coverage": 100,
+    "test_count": 27,
     "failed_tests": 0,
     "conclusion": "success"
   }
