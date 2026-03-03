@@ -137,4 +137,16 @@ describe("Tennis Game", () => {
     marcador.point("Player 1");
     expect(marcador.showScore()).toEqual("Deuce");
   });
+
+  it("Deberia ser Advantage Player 1 cuando Player 1  y Player 2 estaban en Deuce", () => {
+    const marcador = new TenisGame();
+    marcador.point("Player 2");
+    marcador.point("Player 2");
+    marcador.point("Player 2");
+    marcador.point("Player 1");
+    marcador.point("Player 1");
+    marcador.point("Player 1");
+    marcador.point("Player 1");
+    expect(marcador.showScore()).toEqual("Advantage Player 1");
+  });
 });
